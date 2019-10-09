@@ -7,6 +7,9 @@ import org.springframework.context.annotation.Bean;
 
 import com.imarques.abegateway.filters.pre.SimpleFilter;
 
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+@EnableSwagger2
 @EnableZuulProxy
 @SpringBootApplication
 public class AbegatewayApplication {
